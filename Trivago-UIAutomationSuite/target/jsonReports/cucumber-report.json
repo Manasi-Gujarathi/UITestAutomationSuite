@@ -1,0 +1,243 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-31T11:21:49.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9924484700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User can search hotel on trivago site for given destination and dates and User can navigate to all pages to search accomodation.",
+        "description": "",
+        "id": "user-can-search-hotel-on-trivago-site-and-navigate-to-different-pages-and-user-can-view-hotel-list-accourding-to-selected-filter.;user-can-search-hotel-on-trivago-site-for-given-destination-and-dates-and-user-can-navigate-to-all-pages-to-search-accomodation.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 700595100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6293437500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logs into the Trivago application",
+            "match": {
+              "location": "SearchHotelStepDefination.user_logs_into_the_Trivago_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 860717100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user inputs \"Amsterdam\" of his choice",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amsterdam\"",
+                  "offset": 12
+                }
+              ],
+              "location": "SearchHotelStepDefination.user_inputs_of_his_choice(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7898054800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects check in date as \"2020-02-25\" and check out date as \"2020-02-28\" date and search hotels",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-02-25\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"2020-02-28\"",
+                  "offset": 65
+                }
+              ],
+              "location": "SearchHotelStepDefination.user_selects_date_and_date_for_stay_and_search_hotels(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2220909600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user can see list of hotels on page",
+            "match": {
+              "location": "SearchHotelStepDefination.user_can_see_list_of_hotels_on_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10171399300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user can navigate to next pages",
+            "match": {
+              "location": "SearchHotelStepDefination.user_can_navigate_to_next_pages()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-31T11:22:27.833Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9332993400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User can search hotel using filter like price and reaults matching search criteria are displayed.",
+        "description": "",
+        "id": "user-can-search-hotel-on-trivago-site-and-navigate-to-different-pages-and-user-can-view-hotel-list-accourding-to-selected-filter.;user-can-search-hotel-using-filter-like-price-and-reaults-matching-search-criteria-are-displayed.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 696560100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7277731900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User logs into the Trivago application",
+            "match": {
+              "location": "SearchHotelStepDefination.user_logs_into_the_Trivago_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 598951600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user inputs \"Amsterdam\" of his choice",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amsterdam\"",
+                  "offset": 12
+                }
+              ],
+              "location": "SearchHotelStepDefination.user_inputs_of_his_choice(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7869848200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user selects check in date as \"2020-02-25\" and check out date as \"2020-02-28\" date and search hotels",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-02-25\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"2020-02-28\"",
+                  "offset": 65
+                }
+              ],
+              "location": "SearchHotelStepDefination.user_selects_date_and_date_for_stay_and_search_hotels(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2202614900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user can see list of hotels on page",
+            "match": {
+              "location": "SearchHotelStepDefination.user_can_see_list_of_hotels_on_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2761299000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user selects value from price bar",
+            "match": {
+              "location": "SearchHotelStepDefination.user_selects_value_from_price_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 834136400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "hotels within given price range are displayed",
+            "match": {
+              "location": "SearchHotelStepDefination.hotels_within_given_price_range_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User can search hotel on Trivago site and navigate to different pages and user can view hotel list accourding to selected filter.",
+    "description": "",
+    "id": "user-can-search-hotel-on-trivago-site-and-navigate-to-different-pages-and-user-can-view-hotel-list-accourding-to-selected-filter.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TrivagoSanityTest.feature",
+    "tags": []
+  }
+]
