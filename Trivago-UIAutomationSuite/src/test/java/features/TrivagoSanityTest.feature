@@ -11,7 +11,7 @@ Examples:
 |City|check-in|check-out|
 |Amsterdam|2020-02-25|2020-02-28| 
  
-Scenario Outline: User can search hotel using filter like price and reaults matching search criteria are displayed.
+Scenario Outline: User can search hotel using filter like price and results matching given search criteria are displayed.
 Given User logs into the Trivago application
 When user inputs "<City>" of his choice
 And user selects check in date as "<check-in>" and check out date as "<check-out>" date and search hotels
