@@ -131,7 +131,8 @@ public class SearchHotelPageObject extends basePage{
 			TestUtilities.waitForVisibilityOf(By.xpath("//*[@class='btn btn--pagination btn--small pagination__page btn--active']"), 40);
 			TestUtilities.waitForVisibilityOf(By.xpath("//div[@id='js_itemlist_controls']"), 40);
 			Assert.assertTrue(hotelNames.size()>0);
-			log.info("User is on page : "+i+2);
+			int pageNumber = i+2;
+			log.info("User is on page : "+ pageNumber);
 			log.info("Total hotels in the list are: "+hotelList.size());
 		}
 	}
