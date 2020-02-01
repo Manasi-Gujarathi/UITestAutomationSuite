@@ -1,7 +1,7 @@
 # Trivago Automation test suit (Question: 3A)
 The assessment consists of automating the happy flow customer journey for Trivago.
 
-UI test Automation for Otravo
+UI test Automation for Trivago
 ------------------------------
 
 This is Java based automation test project covering smoke test for happy flow scenario using Selenium web-driver as a test automation tool.
